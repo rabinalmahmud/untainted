@@ -1,0 +1,53 @@
+/*Tablet Layout*/
+@media only screen and (min-width:200px) and (max-width:991px){
+    .logo_area {width: 25%; margin-left: 15px;}
+    .search_area {width: 71%; margin-right: 15px;}
+    .inner_menu_bar ul li {padding: 0px;}
+    #header_are {padding: 22px 0;}
+    #slider_area img {height: 250px;}
+    .caption {bottom: 23px; padding: 11px; width: 400px;}
+    .caption h2 {font-size: 24px;}
+    #work_title_area {padding: 25px 0;}
+    .inner_work_title_area h3::before {width: 36%;}
+    .inner_work_title_area h3::after {width: 36%;}
+    #title_area {padding: 30px 0;}
+    .child_title_area h4::before {width: 25%;}
+    .child_title_area h4::after {width: 25%;}
+    .mini_child_title_area a {margin-left: 144px;}
+    #footer_area {padding: 36px 0;}
+    .inner_copyright_area p {padding: 10px 0;}
+    .leftcopyright {margin-left: 10px;}
+    .rightcopyright {margin-right: 15px;}
+}
+
+/*Mobile Layout*/
+@media only screen and (min-width:200px) and (max-width:480px){
+    .logo_area {width: 100%; text-align: center;}
+    .search_area {width: 100%; margin: 0; text-align: center;}
+    .search_area form {width: 100%;margin-left: 10px;}
+    #slider_area img {height: 150px;}
+    .caption {bottom: 3px; padding: 6px; width: 220px;}
+    .caption h2 {font-size: 16px;}
+    #work_title_area {padding: 15px 0;}
+    .inner_work_title_area h3::before {width: 22%;}
+    .inner_work_title_area h3::after {width: 22%;}
+    .child_work_title_area img {margin-top: 35px;}
+    .inner_work_title_area h3 {margin: 0; margin-top: 30px;}
+    .child_work_title_area, .child_footer_area {text-align: center; padding: 0 12px; margin: 0; float: none; width: 100%; box-sizing: border-box;}
+    .child_title_area {margin: 0; width: 100%; float: none; padding: 0 12px; box-sizing: border-box;}
+    #footer_area {padding: 0;padding-top: 10px;padding-bottom: 25px;}
+    .child_footer_area input {width: 77%;}
+    .child_footer_area h6 {margin: 24px 0;}
+    .inner_copyright_area p {padding: 0;margin: 6px;text-align: center;}
+    .leftcopyright {width: 100%; text-align: center; margin-top: 20px;}
+    .rightcopyright {width: 100%; text-align: center; margin-bottom: 20px;}
+}
+
+
+
+
+
+
+
+
+
